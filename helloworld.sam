@@ -1,0 +1,19 @@
+// This is a simple Java program that demonstrates basic concepts.
+
+public class HelloWorld {
+
+    // The main method is the entry point of any Java application
+    public static void main(String[] args) {
+        // Create an instance of the HelloWorld class
+        HelloWorld hello = new HelloWorld();
+
+        // Call the greet method to print a message
+        hello.greet();
+    }
+
+    // A method to print a greeting message
+    public void greet() {
+        // Print a message to the console
+        System.out.println("Hello, World!");
+    }
+}
